@@ -176,6 +176,7 @@ Y = A B
 
 
 Tabla 
+
 <img width="806" height="376" alt="image" src="https://github.com/user-attachments/assets/568c7bcb-37dc-4129-93bd-22bd871f78ca" />
 
 
