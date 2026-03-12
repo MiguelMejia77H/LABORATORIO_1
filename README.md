@@ -82,6 +82,24 @@ Y = A + B
 <img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/594f107f-f952-4b01-9ed4-75ac746afda4" />
 
 
+## Compuerta NOR
+<img width="631" height="419" alt="image" src="https://github.com/user-attachments/assets/9970b853-d729-412d-8e2d-43589d73b294" />
+1. Ficha técnica y esquema
+El funcionamiento es el que invierte la señal de entrada.
+1. Pin 1: Entrada de la primera puerta.
+2. Pin 2: Salida de la primera puerta.
+3. Pin 7: GND (Tierra).
+4. Pin 14: VCC (5V).
+Se conectado el interruptor 1 a la entrada (pin 1) y el LED a la salida (pin 2).
+
+## Función Booleana
+La lógica es simplemente la negación de la entrada:
+
+Y = A
+Tabla 
+<img width="689" height="205" alt="image" src="https://github.com/user-attachments/assets/5ab28ef0-9944-48da-ac72-15dfa4602780" />
+
+
 
 
 
