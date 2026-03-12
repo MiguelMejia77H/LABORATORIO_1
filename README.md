@@ -175,9 +175,19 @@ La función es:
 Y = A B
 
 
+
+https://github.com/user-attachments/assets/d9c46901-5c98-47f1-91fc-939a7ef2d711
+
+
 Tabla 
 
 <img width="806" height="376" alt="image" src="https://github.com/user-attachments/assets/568c7bcb-37dc-4129-93bd-22bd871f78ca" />
+
+
+![WhatsApp Image 2026-03-11 at 22 24 38](https://github.com/user-attachments/assets/e6ca900a-23fa-451b-8a4d-de0c4fbae05e)
+
+
+
 
 
 
