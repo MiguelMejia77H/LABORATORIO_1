@@ -17,10 +17,10 @@ De esta manera, el trabajo integra conceptos de electrónica analógica y lógic
 El circuito que se ha creado es un generador de señales de onda cuadrada, el cual se fundamenta en el circuito integrado TL555 y está configurado en modo astable. En esta configuración, el chip no presenta un estado estable, lo cual implica que oscila de manera continua entre un nivel bajo y uno alto sin requerir una intervención externa, provocando de este modo que el LED parpadee.
 
 # Los componentes clave cumplen las siguientes funciones:
-TL555: Actúa como el controlador central que gestiona los tiempos de carga y descarga··
-Condensador (100UF): Funciona como un depósito de energía que se llena y vacía para marcar el ritmo del tiempo··
-Resistencias (1KU,14KU,220KU): Controlan la velocidad con la que fluye la corriente hacia el condensador, determinando así la duración de la onda··
-Regulador LM7805: Asegura que el circuito reciba un voltaje constante de 5V desde la batería de 9V, protegiendo los componentes.
+1. TL555: Actúa como el controlador central que gestiona los tiempos de carga y descarga··
+2. Condensador (100UF): Funciona como un depósito de energía que se llena y vacía para marcar el ritmo del tiempo··
+3. Resistencias (1KU,14KU,220KU): Controlan la velocidad con la que fluye la corriente hacia el condensador, determinando así la duración de la onda··
+4. Regulador LM7805: Asegura que el circuito reciba un voltaje constante de 5V desde la batería de 9V, protegiendo los componentes.
 
 # Paso a paso para el Cálculo de Componentes
 La fórmula matemática determina la frecuencia y el tiempo del 555 astable. 
@@ -45,6 +45,7 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 4.	Reinicio: Cuando el condensador se vacía hasta 1/3, la Pata 2 lo detecta y reinicia el proceso, creando la onda cuadrada infinita.
 
 # Compuertas Logicas
+## Compuerta AND
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6f11cd6c-3edf-4c50-81f0-e7728a096c4d" />
 
 ## Ficha técnica y esquema
@@ -63,6 +64,25 @@ Y = A * B
 
 Donde A y B son las entradas y Y es la salida.
 <img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/af44107e-45b5-4fec-a6d2-138e29b2f522" />
+## Compuerta OR
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/1b27f230-adbc-4e75-b4b8-6bc80c0b6228" />
+##Ficha técnica y esquema
+1. Pines 1 y 2: Entradas de la primera puerta OR.
+2. Pin 3: Salida de la primera puerta OR.
+3. Pin 7: GND (Tierra).
+4. Pin 14: VCC (5V).
+las entradas están conectadas a los interruptores 1 y 2, y la salida (pin 3) controla el LED, igual que en el ejemplo anterior.
+
+## Función Booleana
+La puerta OR funciona bajo el principio de "cualquiera de las dos". La salida es 1 (encendido) si al menos una de las entradas es 1.
+La función es:
+Y = A + B
+<img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/594f107f-f952-4b01-9ed4-75ac746afda4" />
+
+
+
+
+
 
 
 
