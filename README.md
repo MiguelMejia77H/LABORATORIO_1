@@ -84,6 +84,7 @@ Y = A + B
 
 ## Compuerta NOR
 <img width="631" height="419" alt="image" src="https://github.com/user-attachments/assets/9970b853-d729-412d-8e2d-43589d73b294" />
+
 1. Ficha técnica y esquema
 El funcionamiento es el que invierte la señal de entrada.
 1. Pin 1: Entrada de la primera puerta.
@@ -97,6 +98,7 @@ La lógica es simplemente la negación de la entrada:
 
 Y = A
 Tabla 
+
 <img width="689" height="205" alt="image" src="https://github.com/user-attachments/assets/5ab28ef0-9944-48da-ac72-15dfa4602780" />
 
 
