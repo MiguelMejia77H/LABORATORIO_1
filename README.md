@@ -66,7 +66,8 @@ Donde A y B son las entradas y Y es la salida.
 <img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/af44107e-45b5-4fec-a6d2-138e29b2f522" />
 ## Compuerta OR
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/1b27f230-adbc-4e75-b4b8-6bc80c0b6228" />
-##Ficha técnica y esquema
+
+## Ficha técnica y esquema
 1. Pines 1 y 2: Entradas de la primera puerta OR.
 2. Pin 3: Salida de la primera puerta OR.
 3. Pin 7: GND (Tierra).
@@ -77,6 +78,7 @@ las entradas están conectadas a los interruptores 1 y 2, y la salida (pin 3) co
 La puerta OR funciona bajo el principio de "cualquiera de las dos". La salida es 1 (encendido) si al menos una de las entradas es 1.
 La función es:
 Y = A + B
+
 <img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/594f107f-f952-4b01-9ed4-75ac746afda4" />
 
 
