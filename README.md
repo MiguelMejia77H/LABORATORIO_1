@@ -45,7 +45,9 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 4.	Reinicio: Cuando el condensador se vacía hasta 1/3, la Pata 2 lo detecta y reinicia el proceso, creando la onda cuadrada infinita.
 
 # Compuertas Logicas
+
 ## Compuerta AND 
+
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6f11cd6c-3edf-4c50-81f0-e7728a096c4d" />
 
 ## Ficha técnica y esquema
@@ -56,6 +58,7 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 5. En el circuito:
 6. Las entradas (pines 1 y 2) están conectadas a los interruptores 1 y 2.
 7. La salida (pin 3) está conectada al ánodo del LED a través de una resistencia.
+   
 ## Función Booleana
 La puerta AND tiene la siguiente lógica matemática: la salida será 1 (encendido) solo si ambas entradas son 1 (encendido).
 La función es:
@@ -63,8 +66,11 @@ La función es:
 Y = A * B
 
 Donde A y B son las entradas y Y es la salida.
+
 <img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/af44107e-45b5-4fec-a6d2-138e29b2f522" />
+
 ## Compuerta OR
+
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/1b27f230-adbc-4e75-b4b8-6bc80c0b6228" />
 
 ## Ficha técnica y esquema
@@ -79,13 +85,17 @@ La puerta OR funciona bajo el principio de "cualquiera de las dos". La salida es
 La función es:
 Y = A + B
 
-<img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/594f107f-f952-4b01-9ed4-75ac746afda4" />
+Tabla
+
+<img width="750" height="380" alt="image" src="https://github.com/user-attachments/assets/594f107f-f952-4b01-9ed4-75ac746afda4" />
 
 
-## Compuerta NOR
-<img width="631" height="419" alt="image" src="https://github.com/user-attachments/assets/9970b853-d729-412d-8e2d-43589d73b294" />
+## Compuerta NOT
 
-1. Ficha técnica y esquema
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/9970b853-d729-412d-8e2d-43589d73b294" />
+
+## Ficha técnica y esquema
+
 El funcionamiento es el que invierte la señal de entrada.
 1. Pin 1: Entrada de la primera puerta.
 2. Pin 2: Salida de la primera puerta.
@@ -100,7 +110,60 @@ Y = A
 
 Tabla 
 
-<img width="689" height="205" alt="image" src="https://github.com/user-attachments/assets/5ab28ef0-9944-48da-ac72-15dfa4602780" />
+<img width="750" height="380" alt="image" src="https://github.com/user-attachments/assets/5ab28ef0-9944-48da-ac72-15dfa4602780" />
+
+## Compuerta NAND
+
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/f7e24fd5-470b-48ed-a987-719231ef3390" />
+
+## Ficha técnica y esquema
+1. Pines 1 y 2: Entradas de la primera puerta NAND.
+2. Pin 3: Salida de la primera puerta NAND.
+3. Pin 7: GND (Tierra).
+4. Pin 14: VCC (5V).
+   
+los interruptores 1 y 2 conectados a las entradas (pines 1 y 2) y el LED conectado a la salida (pin 3).
+
+## Función Booleana
+La puerta NAND es esencialmente una puerta AND cuya salida ha sido invertida. Por lo tanto, la salida será 0 (apagado) solamente cuando ambas entradas sean 1. En cualquier otro caso, la salida será 1.
+La función es:
+Y = A * B
+
+Tabla
+
+<img width="750" height="380" alt="image" src="https://github.com/user-attachments/assets/90956f6c-0b76-4d21-8978-a25b3ca7b4af" />
+
+# Compuerta NOR 
+
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/f0ccf89c-87ea-4351-91bf-e42e4f13ffa0" />
+
+
+## Ficha técnica y esquema
+1. Pin 1: Salida.
+2. Pines 2 y 3: Entradas.
+3. Pin 7: GND (Tierra).
+4. Pin 14: VCC (5V).
+   
+el cableado respeta esta configuración: los interruptores van a los pines 2 y 3, y el LED está conectado al pin 1.
+
+## Función Booleana
+La puerta NOR es el inverso de la puerta OR. La salida será 1 (encendido) solo cuando ambas entradas sean 0. Si cualquiera de las entradas es 1, la salida será 0.
+
+La función es:
+
+<img width="185" height="49" alt="image" src="https://github.com/user-attachments/assets/e80dbd3d-835c-49a9-9be9-cfba2338094c" />
+
+Tabla
+
+<img width="750" height="380" alt="image" src="https://github.com/user-attachments/assets/05eded0c-b170-4dc0-a369-5a0c8e38a764" />
+
+
+
+
+
+
+
+
 
 
 
