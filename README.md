@@ -175,10 +175,6 @@ La función es:
 Y = A B
 
 
-
-https://github.com/user-attachments/assets/d9c46901-5c98-47f1-91fc-939a7ef2d711
-
-
 Tabla 
 
 <img width="806" height="376" alt="image" src="https://github.com/user-attachments/assets/568c7bcb-37dc-4129-93bd-22bd871f78ca" />
@@ -188,6 +184,10 @@ Tabla
 
 
 
+
+
+
+https://github.com/user-attachments/assets/fbee0f0b-b898-4543-aabe-e74c5729572e
 
 
 
