@@ -45,7 +45,7 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 4.	Reinicio: Cuando el condensador se vacía hasta 1/3, la Pata 2 lo detecta y reinicia el proceso, creando la onda cuadrada infinita.
 
 # Compuertas Logicas
-## Compuerta AND
+## Compuerta AND 
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6f11cd6c-3edf-4c50-81f0-e7728a096c4d" />
 
 ## Ficha técnica y esquema
