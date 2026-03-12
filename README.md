@@ -17,10 +17,10 @@ De esta manera, el trabajo integra conceptos de electrónica analógica y lógic
 El circuito que se ha creado es un generador de señales de onda cuadrada, el cual se fundamenta en el circuito integrado TL555 y está configurado en modo astable. En esta configuración, el chip no presenta un estado estable, lo cual implica que oscila de manera continua entre un nivel bajo y uno alto sin requerir una intervención externa, provocando de este modo que el LED parpadee.
 
 # Los componentes clave cumplen las siguientes funciones:
-•TL555: Actúa como el controlador central que gestiona los tiempos de carga y descarga··
-•Condensador (100UF): Funciona como un depósito de energía que se llena y vacía para marcar el ritmo del tiempo··
-•Resistencias (1KU,14KU,220KU): Controlan la velocidad con la que fluye la corriente hacia el condensador, determinando así la duración de la onda··
-•Regulador LM7805: Asegura que el circuito reciba un voltaje constante de 5V desde la batería de 9V, protegiendo los componentes.
+TL555: Actúa como el controlador central que gestiona los tiempos de carga y descarga··
+Condensador (100UF): Funciona como un depósito de energía que se llena y vacía para marcar el ritmo del tiempo··
+Resistencias (1KU,14KU,220KU): Controlan la velocidad con la que fluye la corriente hacia el condensador, determinando así la duración de la onda··
+Regulador LM7805: Asegura que el circuito reciba un voltaje constante de 5V desde la batería de 9V, protegiendo los componentes.
 
 # Paso a paso para el Cálculo de Componentes
 La fórmula matemática determina la frecuencia y el tiempo del 555 astable. 
