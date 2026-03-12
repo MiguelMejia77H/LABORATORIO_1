@@ -97,6 +97,7 @@ Se conectado el interruptor 1 a la entrada (pin 1) y el LED a la salida (pin 2).
 La lógica es simplemente la negación de la entrada:
 
 Y = A
+
 Tabla 
 
 <img width="689" height="205" alt="image" src="https://github.com/user-attachments/assets/5ab28ef0-9944-48da-ac72-15dfa4602780" />
