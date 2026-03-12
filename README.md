@@ -46,6 +46,7 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 
 # Compuertas Logicas
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6f11cd6c-3edf-4c50-81f0-e7728a096c4d" />
+
 1. Ficha técnica y esquema
 •	Pines 1 y 2: Entradas de la primera puerta AND.
 •	Pin 3: Salida de la primera puerta AND.
