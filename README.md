@@ -158,6 +158,28 @@ Tabla
 <img width="750" height="380" alt="image" src="https://github.com/user-attachments/assets/05eded0c-b170-4dc0-a369-5a0c8e38a764" />
 
 
+# Compuerta XOR
+
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/174fc584-475e-4524-b43b-c3a1217bcebf" />
+
+## Ficha técnica y esquema
+1. Pines 1 y 2: Entradas de la primera puerta XOR.
+2. Pin 3: Salida de la primera puerta XOR.
+3. Pin 7: GND (Tierra).
+4. Pin 14: VCC (5V).
+los interruptores 1 y 2 están conectados a las entradas (pines 1 y 2), y la salida (pin 3) va hacia el LED.
+## Función Booleana
+La puerta XOR su salida es 1 (encendido) solo cuando las entradas son diferentes entre sí. Si ambas entradas son iguales (ambas 0 o ambas 1), la salida será 0.
+La función es:
+
+Y = A B
+
+
+Tabla 
+<img width="806" height="376" alt="image" src="https://github.com/user-attachments/assets/568c7bcb-37dc-4129-93bd-22bd871f78ca" />
+
+
+
 
 
 
