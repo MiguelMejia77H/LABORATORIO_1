@@ -10,5 +10,5 @@ Adicionalmente, el proyecto incluye el estudio y la implementación de diferente
 
 De esta manera, el trabajo integra conceptos de electrónica analógica y lógica digital, permitiendo comprender tanto el comportamiento de los circuitos temporizadores como el funcionamiento de las operaciones lógicas utilizadas en los sistemas digitales.
 
-<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/0333936a-0582-48e5-8e2c-14533e273e93" />
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/0333936a-0582-48e5-8e2c-14533e273e93" />
 
