@@ -47,27 +47,22 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 # Compuertas Logicas
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6f11cd6c-3edf-4c50-81f0-e7728a096c4d" />
 
-1. Ficha técnica y esquema
-•	Pines 1 y 2: Entradas de la primera puerta AND.
-•	Pin 3: Salida de la primera puerta AND.
-•	Pin 7: GND (Tierra/Negativo).
-•	Pin 14: VCC (5V/Positivo).
-•	En el circuito:
-o	Las entradas (pines 1 y 2) están conectadas a los interruptores 1 y 2.
-o	La salida (pin 3) está conectada al ánodo del LED a través de una resistencia.
-3.	Función Booleana
+## Ficha técnica y esquema
+1. Pines 1 y 2: Entradas de la primera puerta AND.
+2. Pin 3: Salida de la primera puerta AND.
+3. Pin 7: GND (Tierra/Negativo).
+4. Pin 14: VCC (5V/Positivo).
+5. En el circuito:
+6. Las entradas (pines 1 y 2) están conectadas a los interruptores 1 y 2.
+7. La salida (pin 3) está conectada al ánodo del LED a través de una resistencia.
+## Función Booleana
 La puerta AND tiene la siguiente lógica matemática: la salida será 1 (encendido) solo si ambas entradas son 1 (encendido).
 La función es:
 
 Y = A * B
 
 Donde A y B son las entradas y Y es la salida.
+<img width="813" height="420" alt="image" src="https://github.com/user-attachments/assets/af44107e-45b5-4fec-a6d2-138e29b2f522" />
 
-Tabla
-Interruptor A (Pin 1)	Interruptor B (Pin 2)	Salida (Pin 3 / LED)	Estado del LED
-0 (Apagado)	0 (Apagado)	0	Apagado
-0 (Apagado)	1 (Encendido)	0	Apagado
-1 (Encendido)	0 (Apagado)	0	Apagado
-1(Encendido)	1 (Encendido)	1	Encendido
 
 
