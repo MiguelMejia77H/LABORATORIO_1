@@ -44,4 +44,4 @@ se requiere una resistencia R2 de aproximadamente 14 kOhm.
 3.	Descarga: El chip apaga la Pata 3 (el LED se apaga) y abre la Pata 7 para que el condensador se vacíe a través de R_2.
 4.	Reinicio: Cuando el condensador se vacía hasta 1/3, la Pata 2 lo detecta y reinicia el proceso, creando la onda cuadrada infinita.
 
-
+# Compuertas Logicas
